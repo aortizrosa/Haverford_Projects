@@ -1,0 +1,29 @@
+
+. 
+. count if drunk == .
+  0
+
+. count if hsdrunk == .
+  0
+
+. count if free == .
+  0
+
+. count if volfree == .
+  2,475
+
+. count if housing == .
+  0
+
+. 
+.         //second count gets total       
+. count 
+  2,767
+
+. 
+. log close
+      name:  <unnamed>
+       log:  /Users/arortizrosa/Desktop/Ex3ZhengOrtiz_FINAL/Output/DataAppendixOutput/MissingObs.log
+  log type:  text
+ closed on:   8 Dec 2022, 21:50:16
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
